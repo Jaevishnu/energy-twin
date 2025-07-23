@@ -4,7 +4,7 @@ import numpy as np
 from simulate import generate_energy_data
 from suggestions import suggest_optimizations
 
-st.set_page_config(page_title="SmartClass Energy Twin", layout="wide")
+st.set_page_config(page_title="Energy Twin", layout="wide")
 st.title("🏫 SmartClass Energy Twin Dashboard")
 
 df = generate_energy_data()
