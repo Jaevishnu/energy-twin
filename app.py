@@ -5,7 +5,7 @@ from simulate import generate_energy_data
 from suggestions import suggest_optimizations
 
 st.set_page_config(page_title="Energy Twin", layout="wide")
-st.title("🏫 SmartClass Energy Twin Dashboard")
+st.title("🏫 Energy Twin Dashboard")
 
 df = generate_energy_data()
 st.line_chart(df[["Room Temp (°C)", "Energy Used (kWh)"]])
